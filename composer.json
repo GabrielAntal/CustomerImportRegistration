@@ -1,0 +1,25 @@
+{
+    "name": "gabrielantal/customer-import-registration",
+    "description": "Import customers with magento command from json and csv",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Antal Silva",
+            "email": "gabrielantalsilva@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.3.0|~7.4.0",
+        "magento/framework": ">=102.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test\\CustomerImportRegistration\\": ""
+        }
+    },
+    "minimum-stability": "stable"
+}
